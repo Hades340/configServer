@@ -1,0 +1,8 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    server-url:
+      defaultZone: http://172.23.128.1:8761/eureka
+#  instance:
+#    hostname: 172.23.128.1
